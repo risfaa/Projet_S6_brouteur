@@ -1,62 +1,141 @@
 /* Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #1e1f42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008da5;
+  transition: all 300ms ease;
 }
 
 body {
-    background-color: #fBfBfB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #fbfbfb;
+  font-family: Montserrat, sans-serif;
 }
 
-.header-container {
-    position: relative;
-    width: 1820px;
-    height: 60px;
-}
-
-.header-blur {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #C2BEEC;
-    filter: blur(30px);
-    border-radius: 30px;
-}
-
+/* header */
 .header {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #FBFBFB;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    border-radius: 16px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 2%;
+  left: 5%;
+  width: 90%;
+  height: 60px;
+  padding: 2px;
+  background-color: #fbfbfb;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 12px;
+  z-index: 999;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header__content-logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    width: 40px; /* Ajuste selon la taille de ton logo */
-    height: 40px;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .header-text {
-    font-size: 20px;
-    font-weight: bold;
-    color: #1E1F42;
-    font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e1f42;
+  font-family: Montserrat, sans-serif;
 }
 
+/* Intro*/
 
+.hero {
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    width: 90%;
+    height: 94vh;
+    margin-inline: auto;
+    border-radius: 16px;
+    overflow: hidden; /* Pour éviter le dépassement */
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/img/image_brouteur.png");
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1; /* Pour mettre l’image floutée en arrière-plan */
+  }
 
+.hero__text {
+  position: absolute;
+  text-align: start;
+  bottom: 26%;
+  font-size: 36px;
+  left: 6%;
+  color: white;
+  font-weight: 600;
+  padding-right: 20%;
+}
 
+.hero__text_2 {
+  margin-top: 2%;
+}
 
+.hero__text_gras {
+  font-weight: 700;
+}
+
+.hero__arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1.5s infinite;
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/*           */
