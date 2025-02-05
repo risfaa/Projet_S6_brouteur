@@ -95,7 +95,7 @@ body {
     background-image: url("/assets/img/image_brouteur.png");
     background-position: center;
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(22px);
     z-index: -1; /* Pour mettre l’image floutée en arrière-plan */
   }
 
@@ -107,11 +107,11 @@ body {
   left: 6%;
   color: white;
   font-weight: 600;
-  padding-right: 20%;
+  padding-right: 18%;
 }
 
 .hero__text_2 {
-  margin-top: 2%;
+  margin-top: 6%;
 }
 
 .hero__text_gras {
