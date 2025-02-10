@@ -1,165 +1,207 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StopBrouteurs.com</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/img/logo_brouteur_violet_fonce.png"/>
-  </head>
-  
-  <body>
-    <header class="header">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StopBrouteurs.com</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo_brouteur_violet_fonce.png" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
       <div class="header__content-logo">
-        <img class="logo" src="assets/img/logo_brouteur_violet_fonce.png" alt="Logo"/>
+        <img class="logo" src="assets/img/logo_brouteur_violet_fonce.png" alt="Logo" />
         <span class="header-text">StopBrouteurs</span>
       </div>
+    </a>
 
-      <div class="header__info">
-        <ul class="header__list">
-          <li>
-            <a href="#infos">Infos</a>
-          </li>
-          <li>
-            <a href="#evenements">Événement</a>
-          </li>
-          <li>
-            <a href="#reseaux">Réseaux sociaux</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+    <div class="header__info">
+      <ul class="header__list">
+        <li>
+          <a href="#infos">Infos</a>
+        </li>
+        <li>
+          <a href="#event">Événement</a>
+        </li>
+        <li>
+          <a href="#social">Réseaux sociaux</a>
+        </li>
+      </ul>
+    </div>
+  </header>
 
-    <main>
-      <div id="infos">
-        
-      </div>
-    </main>
-
+  <main class="">
     <div class="hero">
-      
       <div class="hero__text">
-        <p class="hero__text_2"><span class="hero__text_gras">Vous pensez être à l’abri des arnaques en ligne ?</span> Les brouteurs ont des techniques redoutables pour 
-          manipuler et piéger leurs victimes. Découvrez comment ils opèrent et surtout, comment éviter de tomber dans leurs filets.</p> 
+        <p class="hero__text_2"><span class="hero__text_gras">Vous pensez être à l'abri des arnaques en ligne ?</span>
+          Les brouteurs ont des techniques redoutables pour
+          manipuler et piéger leurs victimes. Découvrez comment ils opèrent et surtout, comment éviter de tomber dans
+          leurs filets.</p>
       </div>
 
       <img class="hero__arrow" src="assets/icons/arrow-sm-down-svgrepo-com.svg">
-    </div>  
-    </section>
+    </div>
 
-    <section class="brouteurs-section">
+    <section id="infos" class="brouteurs-section main-container">
       <h2>Qui sont ces brouteurs ?</h2>
       <div class="cards-container">
-          <div class="card">
-              <h3>🕵️‍♂️ Des escrocs du web</h3>
-              <p>Les brouteurs sont des arnaqueurs en ligne qui utilisent de fausses identités pour manipuler et escroquer leurs victimes. Ils opèrent principalement sur les réseaux sociaux, les sites de rencontre et les plateformes de messagerie.</p>
-          </div>
-          <div class="card">
-              <h3>🎭 Leur méthode : manipulation et mensonge</h3>
-              <p>Ils se font souvent passer pour des personnes en détresse, des soldats, des célébrités ou même des recruteurs pour gagner la confiance de leurs cibles. Une fois cette confiance établie, ils trouvent un prétexte pour demander de l'argent.</p>
-          </div>
-          <div class="card">
-              <h3>🌍 D'où viennent-ils ?</h3>
-              <p>Le phénomène des brouteurs est particulièrement répandu en Afrique de l'Ouest, notamment en Côte d’Ivoire, où certains jeunes en font une véritable "profession". Cependant, ces escrocs existent partout dans le monde et utilisent des techniques de plus en plus sophistiquées.</p>
-          </div>
-          <div class="card">
-              <h3>🔎 Pourquoi ce nom "brouteur" ?</h3>
-              <p>Le terme "brouteur" vient du verbe "brouter", qui signifie "manger sans trop d’efforts", comme un animal qui broute de l’herbe. Cela reflète bien leur mode opératoire : escroquer de l'argent facilement en abusant de la naïveté ou de la gentillesse de leurs victimes.</p>
-          </div>
+        <div class="card">
+          <h3>🕵️‍♂️ Des escrocs du web</h3>
+          <p>Les brouteurs sont des arnaqueurs en ligne qui utilisent de fausses identités pour manipuler et escroquer
+            leurs victimes. Ils opèrent principalement sur les réseaux sociaux, les sites de rencontre et les
+            plateformes de messagerie.</p>
+        </div>
+        <div class="card">
+          <h3>🎭 Leur méthode : manipulation et mensonge</h3>
+          <p>Ils se font souvent passer pour des personnes en détresse, des soldats, des célébrités ou même des
+            recruteurs pour gagner la confiance de leurs cibles. Une fois cette confiance établie, ils trouvent un
+            prétexte pour demander de l'argent.</p>
+        </div>
+        <div class="card">
+          <h3>🌍 D'où viennent-ils ?</h3>
+          <p>Le phénomène des brouteurs est particulièrement répandu en Afrique de l'Ouest, notamment en Côte d'Ivoire,
+            où certains jeunes en font une véritable "profession". Cependant, ces escrocs existent partout dans le monde
+            et utilisent des techniques de plus en plus sophistiquées.</p>
+        </div>
+        <div class="card">
+          <h3>🔎 Pourquoi ce nom "brouteur" ?</h3>
+          <p>Le terme "brouteur" vient du verbe "brouter", qui signifie "manger sans trop d'efforts", comme un animal
+            qui broute de l'herbe. Cela reflète bien leur mode opératoire : escroquer de l'argent facilement en abusant
+            de la naïveté ou de la gentillesse de leurs victimes.</p>
+        </div>
       </div>
-  </section>
+    </section>
 
-  <section class="sandoz-section">
-    <div class="sandoz-content">
+    <section class="sandoz-section main-container">
+      <h2>Sandoz, la bête noire des brouteurs</h2>
+      <div class="sandoz-content">
         <div class="sandoz-text">
-            <h2>Sandoz, la bête noire des brouteurs</h2>
-            <p>
-                Sandoz est un vidéaste spécialisé dans la traque des escrocs en ligne, et notamment des brouteurs. 
-                Sur sa chaîne YouTube, il infiltre les réseaux de ces arnaqueurs et interagit directement avec eux 
-                pour dévoiler leurs méthodes. <br><br>
-                <strong>Son objectif ?</strong> Sensibiliser le public et aider les internautes à ne pas tomber dans leurs pièges.
-                <br><br>
-                Grâce à des vidéos immersives et souvent pleines d’humour, il expose la manière dont ces escrocs opèrent, 
-                en se faisant passer pour des militaires, des héritiers fictifs ou encore des recruteurs. 
-                Il montre également comment les brouteurs manipulent psychologiquement leurs victimes et les poussent 
-                à envoyer de l’argent.
-                <br><br>
-                En plus de son rôle d’enquêteur numérique, Sandoz met un point d’honneur à éduquer sa communauté 
-                en partageant des conseils de prévention et en expliquant comment signaler ces arnaqueurs aux plateformes concernées.
-            </p>
+          <p>
+            Sandoz est un vidéaste spécialisé dans la traque des escrocs en ligne, et notamment des brouteurs.
+            Sur sa chaîne YouTube, il infiltre les réseaux de ces arnaqueurs et interagit directement avec eux
+            pour dévoiler leurs méthodes. <br><br>
+            <strong>Son objectif ?</strong> Sensibiliser le public et aider les internautes à ne pas tomber dans leurs
+            pièges.
+            <br><br>
+            Grâce à des vidéos immersives et souvent pleines d'humour, il expose la manière dont ces escrocs opèrent,
+            en se faisant passer pour des militaires, des héritiers fictifs ou encore des recruteurs.
+            Il montre également comment les brouteurs manipulent psychologiquement leurs victimes et les poussent
+            à envoyer de l'argent.
+            <br><br>
+            En plus de son rôle d'enquêteur numérique, Sandoz met un point d'honneur à éduquer sa communauté
+            en partageant des conseils de prévention et en expliquant comment signaler ces arnaqueurs aux plateformes
+            concernées.
+          </p>
         </div>
         <div class="sandoz-image">
-            <img src="./assets/img/photo_sandoz.jpg" alt="Sandoz, enquêteur numérique">
+          <img src="./assets/img/photo_sandoz.jpg" alt="Sandoz, enquêteur numérique">
         </div>
-    </div>
-
-    <div class="sandoz-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SSgtPAkBUTg?si=0abcVbPT118L5qwp" frameborder="0" allowfullscreen></iframe>
-    </div>
-</section>
-
-<section class="protection-section">
-  <h2>Quelles sont les moyens de vous protéger ?</h2>
-  <div class="protection-grid">
-      <div class="protection-card">
-          <p>🛡️ <strong>1. Ne faites jamais confiance trop vite</strong></p>
-          <p>Les brouteurs jouent sur l’émotion : amour, urgence, compassion... Toujours vérifier les informations avant d’envoyer de l’argent ou de partager des données personnelles.</p>
       </div>
-      <div class="protection-card">
-          <p>🔍 <strong>2. Faites une recherche d’image inversée</strong></p>
-          <p>Si quelqu’un vous semble suspect, utilisez Google Images ou Tineye pour vérifier si sa photo n’est pas volée sur internet.</p>
+
+      <div class="sandoz-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SSgtPAkBUTg?si=0abcVbPT118L5qwp"
+          frameborder="0" allowfullscreen></iframe>
       </div>
-      <div class="protection-card">
-          <p>🚨 <strong>3. Ne cliquez pas sur des liens douteux</strong></p>
-          <p>Les brouteurs peuvent aussi utiliser du phishing (fausses pages bancaires, mails frauduleux). Vérifiez toujours les liens avant de cliquer.</p>
+    </section>
+
+    <section class="protection-section">
+      <div class="main-container">
+        <h2>Quelles sont les moyens de vous protéger ?</h2>
+        <ul class="protection-grid">
+          <li class="protection-card">
+            <h3>🛡️ <strong>1. Ne faites jamais confiance trop vite</strong></h3>
+            <p>Les brouteurs jouent sur l'émotion : amour, urgence, compassion... Toujours vérifier les informations
+              avant
+              d'envoyer de l'argent ou de partager des données personnelles.</p>
+          </li>
+          <li class="protection-card">
+            <h3>🔍 <strong>2. Faites une recherche d'image inversée</strong></h3>
+            <p>Si quelqu'un vous semble suspect, utilisez Google Images ou Tineye pour vérifier si sa photo n'est pas
+              volée sur internet.</p>
+          </li>
+          <li class="protection-card">
+            <h3>🚨 <strong>3. Ne cliquez pas sur des liens douteux</strong></h3>
+            <p>Les brouteurs peuvent aussi utiliser du phishing (fausses pages bancaires, mails frauduleux). Vérifiez
+              toujours les liens avant de cliquer.</p>
+          </li>
+        </ul>
+        <ul class="protection-grid">
+          <li class="protection-card">
+            <h3>🏴‍☠️ <strong>4. Attention aux demandes d'argent</strong></h3>
+            <p>Aucune vraie entreprise ou personne légitime ne vous demandera de l'argent pour débloquer un héritage, un
+              colis ou une opportunité.</p>
+          </li>
+          <li class="protection-card">
+            <h3>📢 <strong>5. Signalez et bloquez</strong></h3>
+            <p>Si vous tombez sur un profil suspect, signalez-le à la plateforme concernée et bloquez l'escroc pour
+              éviter
+              qu'il ne fasse d'autres victimes.</p>
+          </li>
+        </ul>
       </div>
-      <div class="protection-card">
-          <p>🏴‍☠️ <strong>4. Attention aux demandes d’argent</strong></p>
-          <p>Aucune vraie entreprise ou personne légitime ne vous demandera de l’argent pour débloquer un héritage, un colis ou une opportunité.</p>
+    </section>
+
+    <section id="event" class="event-section">
+      <div class="main-container">
+        <h2>Evenement</h2>
+        <div class="event-content">
+          <h3>🎮 On débarque à la Paris Games Week 2025 !</h3>
+          <p>🔥 Retrouvez-nous en 2025 à la Paris Games Week pour un événement inédit sur la cybersécurité et la lutte
+            contre les brouteurs !</p>
+          <p>Nous aurons notre propre stand dédié à la prévention des arnaques en ligne, et on vous promet une
+            expérience
+            immersive et instructive avec notre invité spécial : <strong>Sandoz</strong> !</p>
+          <p>L'incontournable traqueur de brouteurs, <strong>Sandoz</strong>, sera présent avec nous pour une
+            démonstration
+            en temps réel. Au programme :</p>
+          <ul>
+            <li>✅ Une mise en situation en direct, où il infiltrera des réseaux d'escrocs pour vous montrer leurs
+              techniques
+              en action.</li>
+            <li>✅ Une analyse détaillée de leurs méthodes pour apprendre à les repérer et les éviter.</li>
+            <li>✅ Des conseils pratiques pour sécuriser vos comptes et ne jamais tomber dans leurs pièges.</li>
+          </ul>
+        </div>
+
+        <div class="event-images">
+          <div class="image-row">
+            <img src="/assets/img/stand_paris_games_week.png" alt="Image 1">
+            <img src="/assets/img/Brochure.png" alt="Image 2">
+          </div>
+          <img class="large-image" src="/assets/img/presenation_sandoz.png" alt="Image 3">
+        </div>
+
+        <div class="event-details-content">
+          <p class="event-details">📅 <strong>Date :</strong> À venir | 📍 <strong>Lieu :</strong> Paris Games Week,
+            Stand
+            Cybersécurité</p>
+          <p>Ne manquez pas cet événement exclusif où vous apprendrez à vous protéger tout en assistant à une traque de
+            brouteurs en direct ! 🚀</p>
+        </div>
       </div>
-      <div class="protection-card">
-          <p>📢 <strong>5. Signalez et bloquez</strong></p>
-          <p>Si vous tombez sur un profil suspect, signalez-le à la plateforme concernée et bloquez l’escroc pour éviter qu’il ne fasse d’autres victimes.</p>
+    </section>
+
+    <footer>
+      <section id="social" class="instagram-section">
+        <div class="overlay">
+          <h2>Suivez-nous sur Instagram</h2>
+          <p>Pour connaître nos prochains événements !</p>
+          <a href="https://www.instagram.com/stopbrouteurs?igsh=MXdxcDA1bDMybTYxZA%3D%3D&utm_source=qr">
+            <img class="icone" src="/assets/icons/instagram-svgrepo-com (1).svg" alt="Instagram icon">
+          </a>
+        </div>
+      </section>
+      <div class="footer">
+        <div class="footer-logo">
+          <img class="footer__img" src="assets/img/logo_brouteur_violet_fonce.png" alt="Logo" />
+          <p class="footer__logo-name">StopBrouteurs</p>
+        </div>
       </div>
-  </div>
-</section>
+    </footer>
+  </main>
+</body>
 
-<section class="event-section">
-  <h2>🎮 On débarque à la Paris Games Week 2025 !</h2>
-  <p>🔥 Retrouvez-nous en 2025 à la Paris Games Week pour un événement inédit sur la cybersécurité et la lutte contre les brouteurs !</p>
-  <p>Nous aurons notre propre stand dédié à la prévention des arnaques en ligne, et on vous promet une expérience immersive et instructive avec notre invité spécial : <strong>Sandoz</strong> !</p>
-  <p>L’incontournable traqueur de brouteurs, <strong>Sandoz</strong>, sera présent avec nous pour une démonstration en temps réel. Au programme :</p>
-  <ul>
-      <li>✅ Une mise en situation en direct, où il infiltrera des réseaux d'escrocs pour vous montrer leurs techniques en action.</li>
-      <li>✅ Une analyse détaillée de leurs méthodes pour apprendre à les repérer et les éviter.</li>
-      <li>✅ Des conseils pratiques pour sécuriser vos comptes et ne jamais tomber dans leurs pièges.</li>
-  </ul>
-
-  <div class="event-images">
-      <div class="image-row">
-          <img src="/assets/img/stand_paris_games_week.png" alt="Image 1">
-          <img src="/assets/img/Brochure.png" alt="Image 2">
-      </div>
-      <img class="large-image" src="/assets/img/presenation_sandoz.png" alt="Image 3">
-  </div>
-
-  <p class="event-details">📅 <strong>Date :</strong> À venir | 📍 <strong>Lieu :</strong> Paris Games Week, Stand Cybersécurité</p>
-  <p>Ne manquez pas cet événement exclusif où vous apprendrez à vous protéger tout en assistant à une traque de brouteurs en direct ! 🚀</p>
-</section>
-
-<section class="instagram-section">
-  <div class="overlay">
-      <h2>Suivez-nous sur Instagram</h2>
-      <p>Pour connaître nos prochains événements !</p>
-  </div>
-  <img src="/assets/img/mockup_insta.png" alt="Instagram Promotion">
-</section>
-
-
-  </body>
 </html>
