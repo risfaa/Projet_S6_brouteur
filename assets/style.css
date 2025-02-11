@@ -408,7 +408,12 @@ footer {
 }
 
 .icone{
-  width: 52px;
-  height: 52px;
+  width: 60px;
+  height: 60px;
   margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icone:hover{
+  transform: translateY(-5px);
 }
